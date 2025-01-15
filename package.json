@@ -1,0 +1,21 @@
+{
+  "name": "crypto-signal",
+  "version": "1.0.0",
+  "description": "* Do you ever get tired of staring at charts for stocks and crypto all day? 🥱 * Not sure when it's a good time to enter a trade? 🤷‍♂️ * Can't find a Free solution anywhere? 🤬 * Or you just don't have the time for it at all? ⌛",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.0",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.9",
+    "set-interval-async": "^3.0.3",
+    "taapi": "^1.4.8"
+  }
+}
