@@ -9,8 +9,6 @@ const nodemailer = require('nodemailer')
 let emailSent = false
 
 
-// const accountSid = 'ACd8122ad98d176c65b386e6adce146a63';
-// const authToken = 'e72956ffd85c4461d7518d40365c69d9';
 
 // const client = require('twilio')(accountSid, authToken);
 
