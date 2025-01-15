@@ -10,8 +10,6 @@ let emailSent = false
 
 
 
-// const client = require('twilio')(accountSid, authToken);
-
 
 
   async function sendBuySignal(ticker, interval) {
