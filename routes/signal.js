@@ -213,7 +213,7 @@ let emailSent = false
         // sendAlert(ticker, price.value)
         // console.log(`❌ Don't buy yet. Retesting...`, 'At(USD): '  + price.value + ' macd: ' + macdVol.valueMACDHist[0] + ' macdRed: ' +    macdVol.valueMACDHist[1], `ema3: ${ema3} ema6: ${ema6} ema13: ${ema13} ema21: ${ema21}` ) 
         console.log(`❌ Don't buy yet. Retesting...`, 'At(USD): '  + price.value + ' rsi: ' +rsi ) 
-        res.send(`❌ Don't buy yet. ${req.params.token}`)
+        res.send(`❌ Don't buy yet. ${req.params.token} ${rsi}`)
 
         // res.send(`❌ Don't buy yet. Retesting...`, 'macd: ' + valueMACD, 'At(USD): ' + price.value)
         // sendAlert(ticker, price.value)
